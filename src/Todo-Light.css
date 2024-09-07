@@ -1,0 +1,103 @@
+/* General styles for light theme */
+.App {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; /* Light background color */
+    color: #000000; /* Light theme text color */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Container for todo items */
+  .light-theme .todo-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f5f5f5; /* Light background for container */
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading styling */
+  .light-theme h1 {
+    font-family: 'Playfair Display', serif;
+    color: #000000; /* Dark text color for heading */
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* List styles */
+  .light-theme .todo-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .light-theme .todo-list li {
+    background-color: #e0e0e0; /* Light background for list items */
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000; /* Dark text color for list items */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .light-theme .todo-list li:hover {
+    background-color: #d0d0d0; /* Slightly darker on hover */
+  }
+  
+  .light-theme .todo-list li button {
+    background-color: #00bfff; /* Light blue button */
+    color: #ffffff; /* White text color on button */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0px 10px;
+  }
+  
+  .light-theme .todo-list li button:hover {
+    background-color: #009acf; /* Darker blue on hover */
+    transform: translateY(-3px);
+  }
+  
+  /* Align input and button in a single row */
+  .todo-container .input-group {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .todo-container input, 
+  .todo-container button {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #ffffff; /* Light background for input and button */
+    color: #000000; /* Dark text color for input and button */
+  }
+  
+  .todo-container input {
+    flex: 1;
+  }
+  
+  .todo-container input::placeholder {
+    color: #888;
+  }
+  
+  .todo-container button {
+    background-color: #00bfff; /* Light blue button */
+    color: #000000; /* Dark text color on button */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0px 10px;
+  }
+  
+  .todo-container button:hover {
+    background-color: #009acf; /* Darker blue on hover */
+    transform: translateY(-3px);
+  }
+  
